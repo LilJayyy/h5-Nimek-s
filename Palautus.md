@@ -135,6 +135,8 @@ Yllä oleva toimenpide toistettiin toiselle alidomainille (test).
 
 Tarkistus vielä loppuun `curl` - komentoa käyttäen.
 
+### Kuvan lisääminen HTML-sivulle
+
 Kävin tämän tehtäväosion aikana lisäämässä websivustoon CV:ni, jotta se olisi jotenkin järkevämmän oloinen.
 
 Tähän löytyikin muutama hyvä ohje kun tajusi etsiä oikealla hakusanalla. (Gray 2021) videolta ja (W3schools) löytyi tähän kohtaan apua. 
@@ -151,7 +153,9 @@ Mikäli haluat kuvan sivustolle, etene seuraavasti:
   
 * Lataa se yksinkertaiseen polkuun (Downloads) ja yksinkertaisella nimellä (cv.jpg)
   
-* Lisätään HTML -tiedoston sisältöön `sudo nano~/Downloads/index.html` - komennolla
+* Lisätään HTML -tiedoston sisältöön `nano ~/Downloads/index.html` - komennolla
+
+* `<img src="cv.jpg" alt="Oma CV">` - koodilla kuva esiin
 
 ![6](images/6.png)
 

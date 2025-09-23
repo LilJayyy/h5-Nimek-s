@@ -113,7 +113,8 @@ Virtuaalikoneen terminaaliin ja sinne komento:
 * **`sudo nano /etc/apache2/sites-available/demo.liljasharifi.com.conf`**
   - Sisällöksi:
 
-```<VirtualHost *:80>
+```
+<VirtualHost *:80>
     ServerName liljasharifi.com
     ServerAlias www.liljasharifi.com
     DocumentRoot /var/www/liljasharifi.com
@@ -122,7 +123,8 @@ Virtuaalikoneen terminaaliin ja sinne komento:
         AllowOverride All
         Require all granted
     </Directory>
-</VirtualHost>```
+</VirtualHost>
+```
 
 
 Loppuun vielä aktivointi/enablointi:

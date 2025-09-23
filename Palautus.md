@@ -102,7 +102,7 @@ Ja sama toistettiin mutta tällä kertaa:
 
 Molempiin automaattinen TTL (TimeToLive).
 
-![4](images/4.png)
+![5](images/5.png)
 
 _Alidomainit test ja demo luotu_
 

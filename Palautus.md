@@ -2,7 +2,7 @@
 
 [a) Nimi](#a-Nimi)
 
-[b) Alidomain. ](#b-Alidomain.)
+[b) Alidomain. ](#b-Alidomain)
 
 [c) Host ja dig](#c-Host-ja-dig)
 

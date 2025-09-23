@@ -114,7 +114,6 @@ Virtuaalikoneen terminaaliin ja sinne komento:
   - Sisällöksi:
     
 <VirtualHost *:80>
-
     ServerName demo.liljasharifi.com
     
     DocumentRoot /var/www/liljasharifi.com
@@ -126,8 +125,7 @@ Virtuaalikoneen terminaaliin ja sinne komento:
         Require all granted
         
     </Directory>
-    
-</VirtualHost>
+  </VirtualHost>
 
 Loppuun vielä aktivointi/enablointi:
 * **`sudo a2ensite demo.liljasharifi.com.conf`**

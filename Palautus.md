@@ -167,7 +167,11 @@ Karvinen, T. 2017. Verkkosivu. _First Steps on a New Virtual Private Server – 
 
 Karvinen, T. 2025. Verkkosivu. _Linux Palvelimet 2025 alkusyksy_ Luettavissa: https://terokarvinen.com/linux-palvelimet/ Luettu: 20.08.2025.
 
+Kolawole, D. 2024. Artikkeli. _Guide to Linux host Command With Examples_ Luettavissa: https://www.baeldung.com/linux/host-dns-lookup?utm_source=chatgpt.com Luettu:  23.09.2025.
+
 Anicas, M. 2016. DigitalOcean. Artikkeli. _Initial Server Setup with Ubuntu 16.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04/ Luettu: 22.09.2025.
+
+Zivanov, S. 2024. Artikkeli. _dig Command in Linux with Examples_ Luettavissa: https://phoenixnap.com/kb/linux-dig-command-examples?utm_source=chatgpt.com Luettu: 23.09.2025.
 
 Yang, K. & Tagliaferri, L. 2022. DigitalOcean. Artikkeli. _How To Set Up Apache Virtual Hosts on Ubuntu 20.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-20-04 Luettu: 23.09.2025.
 

@@ -141,11 +141,16 @@ Tähän löytyikin muutama hyvä ohje kun tajusi etsiä oikealla hakusanalla. (G
 
 **Pikaohje** 
 
-Kuva pitää olla virtuaalikoneelle asennettuna
+Mikäli haluat kuvan sivustolle, etene seuraavasti:
 
+* Kuva pitää olla virtuaalikoneelle asennettuna
+  
 * Canva.com virtuaalikoneen internet-selaimeen
+  
 * Lataa jpg-tiedostona CV
+  
 * Lataa se yksinkertaiseen polkuun (Downloads) ja yksinkertaisella nimellä (cv.jpg)
+  
 * Lisätään HTML -tiedoston sisältöön `sudo nano~/Downloads/index.html` - komennolla
 
 ![6](images/6.png)

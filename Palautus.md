@@ -124,6 +124,7 @@ Virtuaalikoneen terminaaliin ja sinne komento:
     </Directory>
 </VirtualHost>```
 
+
 Loppuun vielä aktivointi/enablointi:
 * **`sudo a2ensite demo.liljasharifi.com.conf`**
 * **`sudo systemctl reload apache2`**

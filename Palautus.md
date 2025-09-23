@@ -2,7 +2,7 @@
 
 [a) Nimi](#a-Nimi)
 
-[b) Alidomain. ](#b-Alidomain)
+[b) Alidomain](#b-Alidomain)
 
 [c) Host ja dig](#c-Host-ja-dig)
 
@@ -16,7 +16,7 @@
 * DirectX-versio: DirectX 12
 
 
-# a) Nimi. 
+# a) Nimi
 
 Lähdin tekemään raporttia 23.09.2025 kello 17.00.
 
@@ -67,7 +67,7 @@ Etenin seuraavasti NameCheapissa:
 
 _Lähti toimimaan_
 
-# b) Alidomain.
+# b) Alidomain
 
 Tähän tehtävänosioon siirryin 19.30. Aiempaan tehtävänosioon kului aikaa, sillä jouduin muutaman kerran tekemään dropletin uudelleen.
 
@@ -161,6 +161,8 @@ _CV lisätty sivustolle_
 
   # Lähteet
 
+Anicas, M. 2016. DigitalOcean. Artikkeli. _Initial Server Setup with Ubuntu 16.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04/ Luettu: 22.09.2025.
+
 Gray, D. 2022. Youtube. Video. _How to Insert Images in HTML | An HTML5 Image Tutorial_ Katsottavissa: https://www.youtube.com/watch?v=0pBAfkZMKy0/ Katsottu: 23.09.2025.
 
 Karvinen, T. 2017. Verkkosivu. _First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS_ Luettavissa: https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/ Luettu: 16.09.2025.
@@ -169,11 +171,10 @@ Karvinen, T. 2025. Verkkosivu. _Linux Palvelimet 2025 alkusyksy_ Luettavissa: ht
 
 Kolawole, D. 2024. Artikkeli. _Guide to Linux host Command With Examples_ Luettavissa: https://www.baeldung.com/linux/host-dns-lookup?utm_source=chatgpt.com Luettu:  23.09.2025.
 
-Anicas, M. 2016. DigitalOcean. Artikkeli. _Initial Server Setup with Ubuntu 16.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04/ Luettu: 22.09.2025.
+Yang, K. & Tagliaferri, L. 2022. DigitalOcean. Artikkeli. _How To Set Up Apache Virtual Hosts on Ubuntu 20.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-20-04 Luettu: 23.09.2025.
 
 Zivanov, S. 2024. Artikkeli. _dig Command in Linux with Examples_ Luettavissa: https://phoenixnap.com/kb/linux-dig-command-examples?utm_source=chatgpt.com Luettu: 23.09.2025.
 
-Yang, K. & Tagliaferri, L. 2022. DigitalOcean. Artikkeli. _How To Set Up Apache Virtual Hosts on Ubuntu 20.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-20-04 Luettu: 23.09.2025.
 
 W3schools. Verkkosivu. _HTML Images_ Luettavissa: https://www.w3schools.com/html/html_images.asp Luettu: 23.09.2025
 

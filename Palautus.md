@@ -268,6 +268,11 @@ _dig komento_
 * **ADDITIONAL** EDNS-tietoja resolverin mukana.
 
 
+### Loppupohdinta
+
+Tässä tehävässä tuli hiukan kiire ja tätä raportin loppua kirjoittaessa on 24.09.2025 kello 16:44.
+
+Opin tehtävässä paljon, vaikka lisäharjoituksia pitää vielä tehdä. Tykkäsin tästä tehtävänannosta, vaikka alussa minulla menikin hiukan aikaa kun siirryin UpCloudista DigitalOceaniin ja vaihdoin domain nimeä NameCheapissa.
 
   # Lähteet
 

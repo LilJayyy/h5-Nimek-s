@@ -163,7 +163,7 @@ _CV lisätty sivustolle_
 
 
 
-# c) Host ja dig.
+# c) Host ja dig
 
 ### host -komento
  

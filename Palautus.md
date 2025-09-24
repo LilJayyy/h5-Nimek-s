@@ -238,9 +238,9 @@ _host komento_
 
 _dig komento_
 
-* **QUESTION SECTION - A-tietue kysely**
-* **ANSWER SECTION - Domainin IP-osoite 185.86.211.141 (IPv4) ja 3600 on TTL (TimeToLive)**
-* **AUTHORITY SECTION - Ei nimipalvelmia, eli 0.**
+* **QUESTION SECTION** - A-tietue kysely
+* **ANSWER SECTION** - Domainin IP-osoite 185.86.211.141 (IPv4) ja 3600 on TTL (TimeToLive)
+* **AUTHORITY SECTION** - Ei nimipalvelmia, eli 0.
 * **ADDITIONAL** EDNS-tietoja resolverin mukana.
 
 ## Suurempi yritys
@@ -251,10 +251,10 @@ _dig komento_
 
 _host komento_
 
-* **A-tietue - eli 216.58.210.174 IP-osoite**
-* **AAAA-tietue - eli IPv6 IP-osoite**
-* **MX eli Mail Exhange tietue - prioriteetti 10 ja Googlen oma sähköpostipalvelin.**
-* **HTTP service bindings - lisätietoa palvelun tavasta HTTP-liikenteen yhdistämisestä tiettyyn porttiin ja verkko-osoitteeseen** 
+* **A-tietue** - eli 216.58.210.174 IP-osoite
+* **AAAA-tietue** - eli 2a00:1450:4026:803::200e IPv6 IP-osoite 
+* **MX eli Mail Exhange tietue** - prioriteetti 10 ja Googlen oma sähköpostipalvelin.
+* **HTTP service bindings** - lisätietoa palvelun tavasta HTTP-liikenteen yhdistämisestä tiettyyn porttiin ja verkko-osoitteeseen
 
 ### dig google.com
 
@@ -262,9 +262,9 @@ _host komento_
 
 _dig komento_
 
-* *** **QUESTION SECTION - A-tietue kysely tehty**
-* **ANSWER SECTION - Domainin IP-osoite 216.58.210.174  (IPv4) ja 216 on TTL (TimeToLive)**
-* **AUTHORITY SECTION - Ei nimipalvelmia, eli 0.**
+* *** **QUESTION SECTION** - A-tietue kysely tehty
+* **ANSWER SECTION** - Domainin IP-osoite 216.58.210.174  (IPv4) ja 216 on TTL (TimeToLive)
+* **AUTHORITY SECTION** - Ei nimipalvelmia, eli 0.
 * **ADDITIONAL** EDNS-tietoja resolverin mukana.
 
 

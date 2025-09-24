@@ -22,7 +22,7 @@ Lähdin tekemään raporttia 23.09.2025 kello 17.00.
 
 Hyödynsin tässä tehtävänosiossa h4 tehtävää, jonka tein aiemmin ja käytin myös Karvisen (2017) ja Digital Oceanin (2016) ohjetta.
 
-Lähdin ensin vuokraamaan nimen liljasharifi.com (päädomain). Sain onneksi alennuskoodilla hieman alennusta ensimmäiseen vuoteen. 
+Ensin vuokrasin nimen liljasharifi.com (päädomain). Sain onneksi alennuskoodilla hieman alennusta ensimmäiseen vuoteen. 
 Luotuna oli myös liljasharifi.me jonka sai Github Educationin kautta vuodeksi ilmatteeksi.
 
 Käytin tässä tehtävänannossa liljasharifi.com -domainia. Olin aiemmin luonut Github Educationin kautta saadun liljasharifi.me, mutta haluan hyödyntää jatkossakin domainia, joten .com - päätteisellä lähdin etenemään.
@@ -165,7 +165,15 @@ _CV lisätty sivustolle_
 
 # c) Host ja dig.
 
+### Host 
 
+
+
+
+
+
+
+### Dig
 
 
   # Lähteet
@@ -178,11 +186,11 @@ Karvinen, T. 2017. Verkkosivu. _First Steps on a New Virtual Private Server – 
 
 Karvinen, T. 2025. Verkkosivu. _Linux Palvelimet 2025 alkusyksy_ Luettavissa: https://terokarvinen.com/linux-palvelimet/ Luettu: 20.08.2025.
 
-Kolawole, D. 2024. Artikkeli. _Guide to Linux host Command With Examples_ Luettavissa: https://www.baeldung.com/linux/host-dns-lookup?utm_source=chatgpt.com Luettu:  23.09.2025.
+Kolawole, D. 2024. Artikkeli. _Guide to Linux host Command With Examples_ Luettavissa: https://www.baeldung.com/linux/host-dns-lookup/ Luettu:  23.09.2025.
 
 Yang, K. & Tagliaferri, L. 2022. DigitalOcean. Artikkeli. _How To Set Up Apache Virtual Hosts on Ubuntu 20.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-20-04 Luettu: 23.09.2025.
 
-Zivanov, S. 2024. Artikkeli. _dig Command in Linux with Examples_ Luettavissa: https://phoenixnap.com/kb/linux-dig-command-examples?utm_source=chatgpt.com Luettu: 23.09.2025.
+Zivanov, S. 2024. Artikkeli. _dig Command in Linux with Examples_ Luettavissa: https://phoenixnap.com/kb/linux-dig-command-examples/ Luettu: 23.09.2025.
 
 
 W3schools. Verkkosivu. _HTML Images_ Luettavissa: https://www.w3schools.com/html/html_images.asp Luettu: 23.09.2025

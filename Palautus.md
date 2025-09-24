@@ -165,15 +165,108 @@ _CV lisätty sivustolle_
 
 # c) Host ja dig.
 
-### Host 
+### host -komento
+ 
+Aloitin ensin sillä, että mietin mikä host -komento on ja mitä se tekee.
+
+host on komentorivityökalu, jolla voidaan selvittää **olennaisimmat** tiedot kuten isäntäkoneen IP-osoite nimen perusteella tai käänteisellä haulla selvittää domain-nimi IP-osoitteen avulla. (DNS Lookup). Tässä käytin apuna ClouDNS (2025) ohjetta.
+
+
+### host liljasharifi.com
+
+![9](images/9.png)
+
+_komennon tulos_
+
+* **Näyttää A ja AAAA Recordsin sisällön**   178.62.231.96 A-tietue eli IPv4. AAAA-tietuetta ei ole (IPv6) osoite.
+
+*  **MX-tietueet eli Mail Exchange information - spesifioi mitä sähköpostipalvelimia kyseinen domain käyttää: "mail is handled by.."** => Prioriteetti on 10 eli korkein
+
+
+### dig -komento
+
+dig -komentorivityökalua käytetään hieman laajempaan viankartoitukseen ja on **tarkempi/perusteellisempi kuin host**. Se tekee myös DNS Lookup kyselyitä, eli voi hakea isäntäkoneen IP-osoitteen nimen perusteella ja käänteisellä haulla domain-nimi taas IP-osoitteen avulla. 
+
+Tähän komentorivityökaluun sisältyy myös tietojen haku DNS-palvelimelta, verkkoyhteysongelmien ja DNS-ongelmien tunnistaminen, sekä vianmääritys.
+
+Lähdin seuraamaan tässä DigitalOceanin ohjeistusta (2024)
+
+1. Asensin ensin varuiksi dig komentorivityökalun
+   * **`sudo apt-get update`**
+     
+   * **`sudo apt-get install dnsutils`**
+
+   * **Lopuksi vielä Y ja Enter**
+
+   * **`dig -v`komento** loppuun niin näkee onnistuiko asennus. Virhetilanne tuli - mutta nopeasti tajusi että pitää olla välilyönti "-v" kohdan edessä.
+  
+   
+  ![7](images/7.png)
+
+  _Onnistunut asennus_
+
+### dig liljasharifi.com 
+
+Tällä sain näkyviin:
+* **QUESTION SECTION** - vahvistus kyseisestä tehdystä DNS-kyselystä
+  
+* **ANSWER SECTION** - joka sisältää relevanteimman informaatio komennon käytäjille eli IP-osoitteen.
+
+* **AUTHORITY SECTION** - näyttää domainin nimipalvelimet
+
+* **ADDITIONAL SECTION** - kaikki lisätiedot mitä resolveri on tuonut vastauksen mukana esimerkiksi tässä tapauksessa IP-osoitteet
+
+![8](images/8.png)
 
 
 
+## Pikkuyritys
 
+### host hesy.fi
 
+![10](images/10.png)
 
+_host komento_
 
-### Dig
+* **A-tietue on IPv4. Domainin IP on 185.86.211.141**
+* **Sähköpostit outlookin kautta kulkevat eli: "hesy-fi.mail.protection.outlook.com"..**
+* **Prioriteetti on 0 eli korkein**
+
+### dig hesy.fi
+
+![11](images/11.png)
+
+_dig komento_
+
+* **QUESTION SECTION - A-tietue kysely**
+* **ANSWER SECTION - Domainin IP-osoite 185.86.211.141 (IPv4) ja 3600 on TTL (TimeToLive)**
+* **AUTHORITY SECTION - Ei nimipalvelmia, eli 0.**
+* **ADDITIONAL** EDNS-tietoja resolverin mukana.
+
+## Suurempi yritys
+
+### host google.com
+
+![12](images/12.png)
+
+_host komento_
+
+* **A-tietue - eli 216.58.210.174 IP-osoite**
+* **AAAA-tietue - eli IPv6 IP-osoite**
+* **MX eli Mail Exhange tietue - prioriteetti 10 ja Googlen oma sähköpostipalvelin.**
+* **HTTP service bindings - lisätietoa palvelun tavasta HTTP-liikenteen yhdistämisestä tiettyyn porttiin ja verkko-osoitteeseen** 
+
+### dig google.com
+
+![13](images/13.png)
+
+_dig komento_
+
+* *** **QUESTION SECTION - A-tietue kysely tehty**
+* **ANSWER SECTION - Domainin IP-osoite 216.58.210.174  (IPv4) ja 216 on TTL (TimeToLive)**
+* **AUTHORITY SECTION - Ei nimipalvelmia, eli 0.**
+* **ADDITIONAL** EDNS-tietoja resolverin mukana.
+
 
 
   # Lähteet
@@ -188,10 +281,13 @@ Karvinen, T. 2025. Verkkosivu. _Linux Palvelimet 2025 alkusyksy_ Luettavissa: ht
 
 Kolawole, D. 2024. Artikkeli. _Guide to Linux host Command With Examples_ Luettavissa: https://www.baeldung.com/linux/host-dns-lookup/ Luettu:  23.09.2025.
 
+Pramatarov, M. ClouDNS. 2025. Blogi. _Linux Host command, troubleshot your DNS_ Luettavissa: https://www.cloudns.net/blog/linux-host-command-troubleshot-dns/ Luettu: 23.09.2025.
+
 Yang, K. & Tagliaferri, L. 2022. DigitalOcean. Artikkeli. _How To Set Up Apache Virtual Hosts on Ubuntu 20.04_ Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-20-04 Luettu: 23.09.2025.
 
-Zivanov, S. 2024. Artikkeli. _dig Command in Linux with Examples_ Luettavissa: https://phoenixnap.com/kb/linux-dig-command-examples/ Luettu: 23.09.2025.
+Virdó, H. & Dbrian. DigitalOcean. 2024. Artikkeli. _How to Retrieve DNS Information Using Dig_ Luettavissa: https://www.digitalocean.com/community/tutorials/how-to-retrieve-dns-information-using-dig Luettu: 24.09.2025. 
 
+Zivanov, S. 2024. Artikkeli. _dig Command in Linux with Examples_ Luettavissa: https://phoenixnap.com/kb/linux-dig-command-examples/ Luettu: 23.09.2025.
 
 W3schools. Verkkosivu. _HTML Images_ Luettavissa: https://www.w3schools.com/html/html_images.asp Luettu: 23.09.2025
 
